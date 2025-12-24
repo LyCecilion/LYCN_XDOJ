@@ -3,8 +3,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+namespace
+{
 constexpr int MAX_TEAMS = 10;
 constexpr int NAME_LEN = 12;
+} // namespace
 
 struct Team
 {

@@ -3,8 +3,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+namespace
+{
 constexpr int MAX_STUDENTS = 100;
 constexpr int NAME_LEN = 10;
+} // namespace
 
 struct Student
 {
