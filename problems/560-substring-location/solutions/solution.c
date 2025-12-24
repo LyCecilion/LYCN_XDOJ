@@ -22,7 +22,7 @@ int main(void)
 
     if (n < m)
     {
-        puts("-1");
+        printf("-1");
         return 0;
     }
 
@@ -35,6 +35,6 @@ int main(void)
         }
     }
 
-    puts("-1");
+    printf("-1");
     return 0;
 }
