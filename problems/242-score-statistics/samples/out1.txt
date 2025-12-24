@@ -1,0 +1,6 @@
+18110 HanMeiMei 87.3
+18008 YangYang 86.3
+18004 ZhangSan 83.3
+18001 LiMing 74.3
+18003 WangWei 64.7
+18122 SuSan 58.7
