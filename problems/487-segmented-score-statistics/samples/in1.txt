@@ -1,0 +1,6 @@
+5
+huanglan 83
+wanghai 76
+shenqiang 50
+zhangfeng 95
+zhangmeng 60
