@@ -1,0 +1,6 @@
+5
+00001 huanglan 78 83 75
+00002 wanghai 76 80 77
+00003 shenqiang 87 83 76
+10001 zhangfeng 92 88 78
+21987 zhangmeng 80 82 75
