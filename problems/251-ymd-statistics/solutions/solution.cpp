@@ -28,10 +28,7 @@ constexpr std::array<std::array<int, 13>, 2> prefix{{
 int main()
 {
     int y, m, d;
-    if (std::scanf("%d,%d,%d", &y, &m, &d) != 3)
-        return 0;
-
-    if (m < 1 || m > 12)
+    if (std::scanf("%d,%d,%d", &y, &m, &d) != 3 || m < 1 || m > 12)
         return 0;
 
     const int leap = is_leap(y);

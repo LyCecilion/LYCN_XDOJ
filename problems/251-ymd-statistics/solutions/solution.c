@@ -36,9 +36,7 @@ int main(void)
     // we will still use a struct here in this context.
     date input;
 
-    if ((scanf("%d,%d,%d", &input.year, &input.month, &input.day)) != 3)
-        return 0;
-    if (input.month < 1 || input.month > 12)
+    if ((scanf("%d,%d,%d", &input.year, &input.month, &input.day)) != 3 || input.month < 1 || input.month > 12)
         return 0;
 
     const int leap = is_leap(input.year);
