@@ -8,6 +8,8 @@ help:
 	@echo "  make new               - 交互式创建一个新题目"
 	@echo "  make test P=<path>     - 运行指定题目的测试脚本"
 	@echo "  make test-all          - 运行 problems/ 下所有题目的测试"
+	@echo "  make clean             - 删除所有目录下的 .out 文件"
+	@echo "  make list              - 扫描 problems/ 并更新 README.md 中的表格"
 	@echo ""
 	@echo "示例："
 	@echo "  make new"
@@ -35,7 +37,7 @@ endif
 test-all:
 	@for dir in problems/*; do \
 		if [ -d "$$dir" ]; then \
-			$(PYTHON) run_test.py "$$dir"; \
+			$(PYTHON) tools/run_test.py "$$dir"; \
 		fi \
 	done
 
@@ -46,3 +48,9 @@ clean:
 	@echo "正在清理临时 .out 文件..."
 	@find . -name "*.out" -type f -delete
 	@echo "清理完成。"
+
+# --- 更新题目列表 ---
+# 扫描 problems/ 并更新 README.md 中的表格
+.PHONY: list
+list:
+	@$(PYTHON) tools/list_sync.py
