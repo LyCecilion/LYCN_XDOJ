@@ -23,7 +23,8 @@ int main(void)
         if (scanf("%d", &temp) != 1 || temp < MIN_VALUE || temp > MAX_VALUE)
             return 0;
 
-        cnt[temp % 2]++;
+        if (temp >= 0)
+            cnt[temp % 2]++;
     }
 
     printf("%d %d", cnt[1], cnt[0]);

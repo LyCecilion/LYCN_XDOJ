@@ -22,7 +22,8 @@ int main(void)
         if (!(cin >> temp) || temp < MIN_VALUE || temp > MAX_VALUE)
             return 0;
 
-        cnt[temp % 2]++;
+        if (temp >= 0)
+            cnt[temp % 2]++;
     }
 
     cout << cnt[1] << ' ' << cnt[0] << endl;
