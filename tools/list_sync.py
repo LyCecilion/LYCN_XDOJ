@@ -83,7 +83,7 @@ def generate_markdown_table(problems):
         return "\n*暂无题目*\n"
 
     # 表头
-    md = "| ID | 标题 | 难度 | C | C++ |\n"
+    md = "| ID | 标题 | 难度 | C 版本 | C++ 版本 |\n"
     md += "|:--:|:---|:---|:--:|:--:|\n"
 
     for p in problems:
@@ -94,9 +94,9 @@ def generate_markdown_table(problems):
 
         # 构造代码链接
         # 注意：这里使用 HTML 实体 ✓ 或简单的文本
-        c_link = f"[跳转 `solution.c`]({p['path']}/solutions/solution.c)" if p["has_c"] else "-"
+        c_link = f"[跳转]({p['path']}/solutions/solution.c)" if p["has_c"] else "-"
         cpp_link = (
-            f"[跳转 `solution.cpp`]({p['path']}/solutions/solution.cpp)" if p["has_cpp"] else "-"
+            f"[跳转]({p['path']}/solutions/solution.cpp)" if p["has_cpp"] else "-"
         )
 
         md += f"| {p['id']} | {title_link} | {stars} | {c_link} | {cpp_link} |\n"
