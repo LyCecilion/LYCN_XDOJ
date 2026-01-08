@@ -1,0 +1,10 @@
+31
+This is a pen
+That is a hen
+I like the pen
+do not like the hen
+Pen is nice
+Hen is not nice
+Pen can help
+Hen can not help
+T
