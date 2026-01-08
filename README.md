@@ -26,18 +26,18 @@
 
 | ID | 标题 | 难度 | C 版本 | C++ 版本 |
 |:--:|:---|:---|:--:|:--:|
-| 108 | [拼数字](problems/108-connect-numbers) | ★★★☆☆ | [跳转](problems/108-connect-numbers/solutions/solution.c) | [跳转](problems/108-connect-numbers/solutions/solution.cpp) |
-| 134 | [数字分解排序](problems/134-number-decomposition-and-sorting) | ★★★☆☆ | [跳转](problems/134-number-decomposition-and-sorting/solutions/solution.c) | [跳转](problems/134-number-decomposition-and-sorting/solutions/solution.cpp) |
-| 242 | [成绩统计](problems/242-score-statistics) | ★☆☆☆☆ | [跳转](problems/242-score-statistics/solutions/solution.c) | [跳转](problems/242-score-statistics/solutions/solution.cpp) |
-| 243 | [考试排名](problems/243-exam-ranking) | ★☆☆☆☆ | [跳转](problems/243-exam-ranking/solutions/solution.c) | [跳转](problems/243-exam-ranking/solutions/solution.cpp) |
-| 246 | [单词统计](problems/246-word-statistics) | ★☆☆☆☆ | [跳转](problems/246-word-statistics/solutions/solution.c) | - |
-| 251 | [年月日统计](problems/251-ymd-statistics) | ★☆☆☆☆ | [跳转](problems/251-ymd-statistics/solutions/solution.c) | [跳转](problems/251-ymd-statistics/solutions/solution.cpp) |
-| 465 | [排球比赛](problems/465-volleyball-match) | ★★★☆☆ | [跳转](problems/465-volleyball-match/solutions/solution.c) | [跳转](problems/465-volleyball-match/solutions/solution.cpp) |
-| 469 | [输入联想](problems/469-input-association) | ★☆☆☆☆ | [跳转](problems/469-input-association/solutions/solution.c) | - |
-| 487 | [分段统计学生成绩](problems/487-segmented-score-statistics) | ★★☆☆☆ | [跳转](problems/487-segmented-score-statistics/solutions/solution.c) | [跳转](problems/487-segmented-score-statistics/solutions/solution.cpp) |
-| 493 | [找出总分最高的学生](problems/493-highest_scored_student) | ★★★☆☆ | [跳转](problems/493-highest_scored_student/solutions/solution.c) | [跳转](problems/493-highest_scored_student/solutions/solution.cpp) |
-| 560 | [子串定位](problems/560-substring-location) | ★★☆☆☆ | [跳转](problems/560-substring-location/solutions/solution.c) | [跳转](problems/560-substring-location/solutions/solution.cpp) |
-| 759 | [找奇偶数的数量](problems/759-test01) | ★☆☆☆☆ | [跳转](problems/759-test01/solutions/solution.c) | [跳转](problems/759-test01/solutions/solution.cpp) |
+| 108 | [拼数字](problems/108-connect-numbers) | ★★★☆☆ (3) | [跳转](problems/108-connect-numbers/solutions/solution.c) | [跳转](problems/108-connect-numbers/solutions/solution.cpp) |
+| 134 | [数字分解排序](problems/134-number-decomposition-and-sorting) | ★★★☆☆ (3) | [跳转](problems/134-number-decomposition-and-sorting/solutions/solution.c) | [跳转](problems/134-number-decomposition-and-sorting/solutions/solution.cpp) |
+| 242 | [成绩统计](problems/242-score-statistics) | ★☆☆☆☆ (1) | [跳转](problems/242-score-statistics/solutions/solution.c) | [跳转](problems/242-score-statistics/solutions/solution.cpp) |
+| 243 | [考试排名](problems/243-exam-ranking) | ★☆☆☆☆ (1) | [跳转](problems/243-exam-ranking/solutions/solution.c) | [跳转](problems/243-exam-ranking/solutions/solution.cpp) |
+| 246 | [单词统计](problems/246-word-statistics) | ★☆☆☆☆ (1) | [跳转](problems/246-word-statistics/solutions/solution.c) | - |
+| 251 | [年月日统计](problems/251-ymd-statistics) | ★☆☆☆☆ (1) | [跳转](problems/251-ymd-statistics/solutions/solution.c) | [跳转](problems/251-ymd-statistics/solutions/solution.cpp) |
+| 465 | [排球比赛](problems/465-volleyball-match) | ★★★☆☆ (3) | [跳转](problems/465-volleyball-match/solutions/solution.c) | [跳转](problems/465-volleyball-match/solutions/solution.cpp) |
+| 469 | [输入联想](problems/469-input-association) | ★☆☆☆☆ (1) | [跳转](problems/469-input-association/solutions/solution.c) | - |
+| 487 | [分段统计学生成绩](problems/487-segmented-score-statistics) | ★★☆☆☆ (2) | [跳转](problems/487-segmented-score-statistics/solutions/solution.c) | [跳转](problems/487-segmented-score-statistics/solutions/solution.cpp) |
+| 493 | [找出总分最高的学生](problems/493-highest_scored_student) | ★★★☆☆ (3) | [跳转](problems/493-highest_scored_student/solutions/solution.c) | [跳转](problems/493-highest_scored_student/solutions/solution.cpp) |
+| 560 | [子串定位](problems/560-substring-location) | ★★☆☆☆ (2) | [跳转](problems/560-substring-location/solutions/solution.c) | [跳转](problems/560-substring-location/solutions/solution.cpp) |
+| 759 | [找奇偶数的数量](problems/759-test01) | ★☆☆☆☆ (1) | [跳转](problems/759-test01/solutions/solution.c) | [跳转](problems/759-test01/solutions/solution.cpp) |
 
 <!--problemlist-ends-->
 <!--markdownlint-enable-->

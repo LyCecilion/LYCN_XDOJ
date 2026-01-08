@@ -23,7 +23,7 @@ def get_stars(difficulty):
     try:
         val = int(difficulty)
         val = max(1, min(5, val))
-        return "★" * val + "☆" * (5 - val)
+        return "★" * val + "☆" * (5 - val) + " (" + str(val) + ")"
     except:
         return difficulty
 
