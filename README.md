@@ -1,12 +1,14 @@
 <div align="center">
 
-# LYCN_XDOJ
+# LYCN_XDOJ (Archived)
 
 ![LYCN_XDOJ 头图](./assets/LYCN_XDOJ_banner.jpg)
 
 **💻 LyCecilion 完成的 XDOJ 题解 🔧**
 
 高度自动的样例校验 · 极致规范的代码风格 · 简洁高效的逻辑实现
+
+该项目已归档。
 
 </div>
 
@@ -26,6 +28,11 @@
 
 | ID | 标题 | 难度 | C 版本 | C++ 版本 |
 |:--:|:---|:---|:--:|:--:|
+| 4 | [命令行选项](problems/4-command-line) | ★★★★☆ (4) | - | [跳转](problems/4-command-line/solutions/solution.cpp) |
+| 72 | [寻找最长的行](problems/72-longest-line) | ★★☆☆☆ (2) | - | [跳转](problems/72-longest-line/solutions/solution.cpp) |
+| 73 | [字符串压缩](problems/73-string-compression) | ★★★☆☆ (3) | - | [跳转](problems/73-string-compression/solutions/solution.cpp) |
+| 74 | [括号匹配](problems/74-parentheses-matching) | ★★★★☆ (4) | - | [跳转](problems/74-parentheses-matching/solutions/solution.cpp) |
+| 77 | [表达式求值](problems/77-expression-eval) | ★★★☆☆ (3) | - | [跳转](problems/77-expression-eval/solutions/solution.cpp) |
 | 108 | [拼数字](problems/108-connect-numbers) | ★★★☆☆ (3) | [跳转](problems/108-connect-numbers/solutions/solution.c) | [跳转](problems/108-connect-numbers/solutions/solution.cpp) |
 | 134 | [数字分解排序](problems/134-number-decomposition-and-sorting) | ★★★☆☆ (3) | [跳转](problems/134-number-decomposition-and-sorting/solutions/solution.c) | [跳转](problems/134-number-decomposition-and-sorting/solutions/solution.cpp) |
 | 242 | [成绩统计](problems/242-score-statistics) | ★☆☆☆☆ (1) | [跳转](problems/242-score-statistics/solutions/solution.c) | [跳转](problems/242-score-statistics/solutions/solution.cpp) |
